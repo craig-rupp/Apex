@@ -1,0 +1,17 @@
+{
+    "projectName": "Apex Academy",
+    "username": "craig-rupp@apex-academy.com",
+    "id": "a4bccb50-0075-11e8-9ead-abb70aa7f3df",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://na78.salesforce.com",
+    "workspace": "/Users/craigrupp/Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
