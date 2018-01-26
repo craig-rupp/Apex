@@ -11,7 +11,7 @@ trigger WarrantySummary on Case (before insert) {
 		myCase.Warranty_Summary__c = 'Product purchased on ' + purchaseDate 
 								   + ' and case created on ' + createdDate + '.\n'
 								   + 'Warranty is for ' + warrantyDays + ' days and is : ' + warrantyPercentage + ', through it\'s warranty period.\n'
-								   + 'Extended warranty is : ' + extendedWarranty + '.\n'
+								   + 'Extended warranty is: ' + extendedWarranty + '.\n'
 								   + 'Have a Nice Day!'; 
 	}
 	/*
