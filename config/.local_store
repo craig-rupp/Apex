@@ -128,5 +128,37 @@
         "manageableState": "unmanaged",
         "type": "ApexTrigger",
         "mmState": "clean"
+    },
+    "WarrantySummary.cls": {
+        "id": "01p1N00000CFfZ1QAL",
+        "name": "WarrantySummary",
+        "createdDate": "2018-01-26T21:55:43.000+0000",
+        "createdById": "0051N000005uzmpQAA",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051N000005uzmpQAA",
+        "lastModifiedDate": "2018-01-26T22:27:25.000+0000",
+        "fullName": "WarrantySummary",
+        "fileName": "unpackaged/classes/WarrantySummary.cls",
+        "createdByName": "Craig Rupp",
+        "lastModifiedByName": "Craig Rupp",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "LeadingCompetitor.trigger": {
+        "id": "01q1N000001nQqfQAE",
+        "name": "LeadingCompetitor",
+        "createdDate": "2018-01-30T23:18:26.000+0000",
+        "createdById": "0051N000005uzmpQAA",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051N000005uzmpQAA",
+        "lastModifiedDate": "2018-01-31T01:07:32.000+0000",
+        "fullName": "LeadingCompetitor",
+        "fileName": "unpackaged/triggers/LeadingCompetitor.trigger",
+        "createdByName": "Craig Rupp",
+        "lastModifiedByName": "Craig Rupp",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
     }
 }
