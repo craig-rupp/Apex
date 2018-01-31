@@ -1,0 +1,62 @@
+36.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+20:17:30.38 (38226465)|USER_INFO|[EXTERNAL]|0051N000005uzmp|craig-rupp@apex-academy.com|Pacific Standard Time|GMT-08:00
+20:17:30.38 (38263776)|EXECUTION_STARTED
+20:17:30.38 (38268286)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+20:17:30.38 (38300882)|CODE_UNIT_STARTED|[EXTERNAL]|01q1N000001mO2l|WarrantySummary on Case trigger event BeforeInsert for [new]
+20:17:30.38 (38341952)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+20:17:30.38 (38719318)|HEAP_ALLOCATE|[72]|Bytes:3
+20:17:30.38 (38792762)|HEAP_ALLOCATE|[77]|Bytes:152
+20:17:30.38 (38809179)|HEAP_ALLOCATE|[342]|Bytes:408
+20:17:30.38 (38823426)|HEAP_ALLOCATE|[355]|Bytes:408
+20:17:30.38 (38836533)|HEAP_ALLOCATE|[467]|Bytes:48
+20:17:30.38 (38888858)|HEAP_ALLOCATE|[139]|Bytes:6
+20:17:30.38 (38912616)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:17:30.38 (38933805)|VARIABLE_SCOPE_BEGIN|[1]|this|WarrantySummary|true|false
+20:17:30.38 (38986428)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x50572b13
+20:17:30.38 (39036879)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:17:30.38 (39156468)|VARIABLE_SCOPE_BEGIN|[1]|this|WarrantySummary|true|false
+20:17:30.38 (39171664)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x50572b13
+20:17:30.38 (39179173)|STATEMENT_EXECUTE|[1]
+20:17:30.38 (39209088)|HEAP_ALLOCATE|[50]|Bytes:5
+20:17:30.38 (39231022)|HEAP_ALLOCATE|[56]|Bytes:5
+20:17:30.38 (39238850)|HEAP_ALLOCATE|[64]|Bytes:7
+20:17:30.38 (39605958)|HEAP_ALLOCATE|[2]|Bytes:5
+20:17:30.38 (39633684)|HEAP_ALLOCATE|[2]|Bytes:4
+20:17:30.38 (39642797)|VARIABLE_SCOPE_BEGIN|[2]|myCase|Case|true|false
+20:17:30.38 (40396766)|VARIABLE_ASSIGNMENT|[2]|myCase|{"Origin":"Email","Status":"New","IsDeleted":false,"Description":"SSN","IsEscalated":false,"OwnerId":"0051N000005uzmpQAA","Priority":"Medium","IsClosedOnCreate":false,"Product_Has_Extended (12 more) ...":false,"IsClosed":false,"Product_Purchase_Dat (4 more) ...":"2018-01-30T00:00:00.000Z"}|0x6ef10770
+20:17:30.38 (40410697)|STATEMENT_EXECUTE|[2]
+20:17:30.38 (40412855)|STATEMENT_EXECUTE|[3]
+20:17:30.38 (40525182)|HEAP_ALLOCATE|[3]|Bytes:9
+20:17:30.38 (40539262)|VARIABLE_SCOPE_BEGIN|[3]|purchaseDate|String|false|false
+20:17:30.38 (40548972)|VARIABLE_ASSIGNMENT|[3]|purchaseDate|"1/30/2018"
+20:17:30.38 (40552792)|STATEMENT_EXECUTE|[4]
+20:17:30.38 (40592267)|HEAP_ALLOCATE|[4]|Bytes:56
+20:17:30.38 (40639978)|HEAP_ALLOCATE|[4]|Bytes:17
+20:17:30.38 (40648510)|VARIABLE_SCOPE_BEGIN|[4]|createdDate|String|false|false
+20:17:30.38 (40657518)|VARIABLE_ASSIGNMENT|[4]|createdDate|"1/30/2018 8:17 PM"
+20:17:30.38 (40664800)|STATEMENT_EXECUTE|[5]
+20:17:30.38 (40748863)|HEAP_ALLOCATE|[5]|Bytes:41
+20:17:30.38 (40895167)|FATAL_ERROR|System.NullPointerException: Attempt to de-reference a null object
+
+Trigger.WarrantySummary: line 5, column 1
+20:17:30.38 (40908087)|FATAL_ERROR|System.NullPointerException: Attempt to de-reference a null object
+
+Trigger.WarrantySummary: line 5, column 1
+20:17:30.40 (40941832)|CUMULATIVE_LIMIT_USAGE
+20:17:30.40 (40941832)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+20:17:30.40 (40941832)|CUMULATIVE_LIMIT_USAGE_END
+
+20:17:30.38 (42047743)|CODE_UNIT_FINISHED|WarrantySummary on Case trigger event BeforeInsert for [new]

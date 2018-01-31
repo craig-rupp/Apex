@@ -1,0 +1,53 @@
+36.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+20:11:07.0 (307073)|USER_INFO|[EXTERNAL]|0051N000005uzmp|craig-rupp@apex-academy.com|Pacific Standard Time|GMT-08:00
+20:11:07.0 (335627)|EXECUTION_STARTED
+20:11:07.0 (339607)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+20:11:07.0 (369731)|CODE_UNIT_STARTED|[EXTERNAL]|01q1N000001mO2l|WarrantySummary on Case trigger event BeforeInsert for [new]
+20:11:07.0 (417064)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+20:11:07.0 (782079)|HEAP_ALLOCATE|[72]|Bytes:3
+20:11:07.0 (863261)|HEAP_ALLOCATE|[77]|Bytes:152
+20:11:07.0 (879650)|HEAP_ALLOCATE|[342]|Bytes:408
+20:11:07.0 (894266)|HEAP_ALLOCATE|[355]|Bytes:408
+20:11:07.0 (910286)|HEAP_ALLOCATE|[467]|Bytes:48
+20:11:07.0 (982555)|HEAP_ALLOCATE|[139]|Bytes:6
+20:11:07.0 (1020296)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:11:07.0 (1056653)|VARIABLE_SCOPE_BEGIN|[1]|this|WarrantySummary|true|false
+20:11:07.0 (1123508)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x533ac89
+20:11:07.0 (1195815)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+20:11:07.0 (1211741)|VARIABLE_SCOPE_BEGIN|[1]|this|WarrantySummary|true|false
+20:11:07.0 (1225103)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x533ac89
+20:11:07.0 (1232888)|STATEMENT_EXECUTE|[1]
+20:11:07.0 (1267326)|HEAP_ALLOCATE|[50]|Bytes:5
+20:11:07.0 (1298279)|HEAP_ALLOCATE|[56]|Bytes:5
+20:11:07.0 (1306905)|HEAP_ALLOCATE|[64]|Bytes:7
+20:11:07.0 (1732609)|HEAP_ALLOCATE|[2]|Bytes:5
+20:11:07.0 (1764806)|HEAP_ALLOCATE|[2]|Bytes:4
+20:11:07.0 (1774691)|VARIABLE_SCOPE_BEGIN|[2]|myCase|Case|true|false
+20:11:07.0 (2487589)|VARIABLE_ASSIGNMENT|[2]|myCase|{"Origin":"Email","Status":"New","IsDeleted":false,"Description":"SSN","IsEscalated":false,"OwnerId":"0051N000005uzmpQAA","Priority":"Medium","IsClosedOnCreate":false,"Product_Has_Extended (12 more) ...":false,"IsClosed":false}|0x138dbc2
+20:11:07.0 (2499799)|STATEMENT_EXECUTE|[2]
+20:11:07.0 (2501358)|STATEMENT_EXECUTE|[3]
+20:11:07.0 (2591165)|HEAP_ALLOCATE|[3]|Bytes:41
+20:11:07.0 (2748888)|FATAL_ERROR|System.NullPointerException: Attempt to de-reference a null object
+
+Trigger.WarrantySummary: line 3, column 1
+20:11:07.0 (2757831)|FATAL_ERROR|System.NullPointerException: Attempt to de-reference a null object
+
+Trigger.WarrantySummary: line 3, column 1
+20:11:07.2 (2806819)|CUMULATIVE_LIMIT_USAGE
+20:11:07.2 (2806819)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+20:11:07.2 (2806819)|CUMULATIVE_LIMIT_USAGE_END
+
+20:11:07.0 (3841638)|CODE_UNIT_FINISHED|WarrantySummary on Case trigger event BeforeInsert for [new]

@@ -1,1 +1,1080 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hig",
+				"highestPricePosition"
+			],
+			[
+				"hi",
+				"highestPrice"
+			],
+			[
+				"comp",
+				"compPrices"
+			],
+			[
+				"low",
+				"lowestPricePosition"
+			],
+			[
+				"si",
+				"PUBLIC size() \tInteger"
+			],
+			[
+				"Date",
+				"DateTime"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"wa",
+				"warrantyPercentage"
+			],
+			[
+				"pur",
+				"purchaseDate"
+			],
+			[
+				"da",
+				"PUBLIC daysBetween(Date other) \tInteger"
+			],
+			[
+				"warra",
+				"warrantyPercentage"
+			],
+			[
+				"crea",
+				"createdDate"
+			],
+			[
+				"warr",
+				"warrantyDays"
+			],
+			[
+				"arse",
+				"arsenal_Front3"
+			],
+			[
+				"right",
+				"right_wing〔variable〕"
+			],
+			[
+				"ars",
+				"arsenal_midfield3〔variable〕"
+			],
+			[
+				"log",
+				"logArsenal〔function〕"
+			],
+			[
+				"s",
+				"striker"
+			],
+			[
+				"rig",
+				"right_wing"
+			],
+			[
+				"le",
+				"left_wing"
+			],
+			[
+				"pa",
+				"pause"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"se",
+				"second_array_diff"
+			],
+			[
+				"secon",
+				"second_array〔variable〕"
+			],
+			[
+				"sec",
+				"second_array_diff〔variable〕"
+			],
+			[
+				"seco",
+				"second_array〔variable〕"
+			],
+			[
+				"match",
+				"matching_numbers〔variable〕"
+			],
+			[
+				"fr",
+				"first_array_diff"
+			],
+			[
+				"firs",
+				"first_array〔variable〕"
+			],
+			[
+				"first",
+				"first_array〔variable〕"
+			],
+			[
+				"mat",
+				"matching_numbers〔variable〕"
+			],
+			[
+				"fir",
+				"first_array〔variable〕"
+			],
+			[
+				"buil",
+				"buildFunctionsIIFE2〔function〕"
+			],
+			[
+				"new",
+				"new_fs"
+			],
+			[
+				"bui",
+				"buildFunctionsES6〔function〕"
+			],
+			[
+				"g",
+				"greet"
+			],
+			[
+				"la",
+				"language"
+			],
+			[
+				"l",
+				"last_name"
+			],
+			[
+				"a",
+				"asssorted_array"
+			],
+			[
+				"gree",
+				"greeting〔function〕"
+			],
+			[
+				"obj",
+				"object_literal〔variable〕"
+			],
+			[
+				"thi",
+				"this〔keyword〕"
+			],
+			[
+				"va",
+				"variable"
+			],
+			[
+				"obje",
+				"object2〔argument〕"
+			],
+			[
+				"spa",
+				"spanish_greetings〔variable〕"
+			],
+			[
+				"en",
+				"english_greetings"
+			],
+			[
+				"object",
+				"object2"
+			],
+			[
+				"nw",
+				"nwHawks"
+			],
+			[
+				"p",
+				"person"
+			],
+			[
+				"fo",
+				"football"
+			],
+			[
+				"pr",
+				"precedence"
+			],
+			[
+				"click",
+				"clickHandler"
+			],
+			[
+				"ge",
+				"getTime〔function〕"
+			],
+			[
+				"scope",
+				"scope_look〔function〕"
+			],
+			[
+				"sr",
+				"source\tTag"
+			],
+			[
+				"max",
+				"maxWord〔variable〕"
+			],
+			[
+				"ma",
+				"maxCount"
+			],
+			[
+				"st",
+				"$string〔variable〕"
+			],
+			[
+				"str_re",
+				"str_replace〔function〕"
+			],
+			[
+				"convertTo",
+				"convertToStudlyCaps"
+			],
+			[
+				"con",
+				"$controller_object〔variable〕"
+			],
+			[
+				"is",
+				"is_callable"
+			],
+			[
+				"cla",
+				"class_exists〔function〕"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"preg",
+				"preg_replace〔function〕"
+			],
+			[
+				"forea",
+				"foreach〔keyword〕"
+			],
+			[
+				"e",
+				"elseif\telseif …"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"rout",
+				"$router〔variable〕"
+			],
+			[
+				"pro",
+				"protected〔keyword〕"
+			],
+			[
+				"requi",
+				"require_once〔keyword〕"
+			],
+			[
+				"req",
+				"require_once〔keyword〕"
+			],
+			[
+				"_",
+				"$_SERVER〔variable〕"
+			],
+			[
+				"un",
+				"unset($array[$key"
+			],
+			[
+				"exp",
+				"explode〔function〕"
+			],
+			[
+				"strto",
+				"strtolower〔function〕"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"arr",
+				"$array〔variable〕"
+			],
+			[
+				"ctype",
+				"ctype_lower"
+			],
+			[
+				"uc",
+				"ucwords"
+			],
+			[
+				"arr2",
+				"$arr2_v〔variable〕"
+			],
+			[
+				"PHP",
+				"PHP_EOL〔constant〕"
+			],
+			[
+				"print",
+				"print_r〔function〕"
+			],
+			[
+				"prin",
+				"print_r〔function〕"
+			],
+			[
+				"ng",
+				"ngIf"
+			],
+			[
+				"swit",
+				"switch\tkeyword"
+			],
+			[
+				"On",
+				"OnInit\talias"
+			],
+			[
+				"Host",
+				"HostListener\talias"
+			],
+			[
+				"Hos",
+				"HostListener\talias"
+			],
+			[
+				"na",
+				"nativeElement\tproperty"
+			],
+			[
+				"Ele",
+				"ElementRef\talias"
+			],
+			[
+				"this",
+				"thisChar〔variable〕"
+			],
+			[
+				"re",
+				"recipe\tscript"
+			],
+			[
+				"recipe",
+				"recipe-detail\tdirectory"
+			],
+			[
+				"imp",
+				"import\tkeyword"
+			],
+			[
+				"const",
+				"constructor\tkeyword"
+			],
+			[
+				"top",
+				"topNumber"
+			],
+			[
+				"fal",
+				"falseCheck〔variable〕"
+			],
+			[
+				"arra",
+				"arrayAdd1〔function〕"
+			],
+			[
+				"upl",
+				"upload.php"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"us",
+				"user_image〔variable〕"
+			],
+			[
+				"tem",
+				"temp〔variable〕"
+			],
+			[
+				"powers",
+				"powers.push"
+			],
+			[
+				"tempS",
+				"tempSet"
+			],
+			[
+				"nu",
+				"number"
+			],
+			[
+				"to",
+				"total"
+			],
+			[
+				"power",
+				"powers〔variable〕"
+			],
+			[
+				"cn",
+				"console.log"
+			],
+			[
+				"ha",
+				"hashTable"
+			],
+			[
+				"has",
+				"hashTable〔variable〕"
+			],
+			[
+				"mi",
+				"minusElement"
+			],
+			[
+				"m",
+				"minusElement"
+			],
+			[
+				"che",
+				"checkTable〔variable〕"
+			],
+			[
+				"lett",
+				"letterSimilarCount"
+			],
+			[
+				"ar",
+				"arithmetic"
+			],
+			[
+				"diff",
+				"difference〔variable〕"
+			],
+			[
+				"arit",
+				"arithmetic〔variable〕"
+			],
+			[
+				"pal",
+				"palindrome"
+			],
+			[
+				"str",
+				"str_lower〔variable〕"
+			],
+			[
+				"A",
+				"AlphabetSoup"
+			],
+			[
+				"al",
+				"alph_arr"
+			],
+			[
+				"alph",
+				"alph_arr〔variable〕"
+			],
+			[
+				"ap",
+				"alpha_arr"
+			],
+			[
+				"sym_",
+				"symb_arr"
+			],
+			[
+				"symb",
+				"symb_array〔variable〕"
+			],
+			[
+				"sym",
+				"sym_array〔variable〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/triggers/WarrantySummary.trigger",
+			"settings":
+			{
+				"buffer_size": 1341,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/triggers/LeadingCompetitor.trigger",
+			"settings":
+			{
+				"buffer_size": 1449,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/WarrantySummary.cls",
+			"settings":
+			{
+				"buffer_size": 371,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/AppleWatchTest.cls",
+			"settings":
+			{
+				"buffer_size": 246,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/triggers/HelloWorld.trigger",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/classes/HelloWorldTest.cls",
+			"settings":
+			{
+				"buffer_size": 299,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "Pack",
+		"selected_items":
+		[
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"",
+				"Boxy Theme: Activation"
+			],
+			[
+				"Boo",
+				"Boxy Theme: Activation"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Package Control: Install Package",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/craigrupp/Documents/Apex Academy",
+		"/Users/craigrupp/Documents/Apex Academy/src",
+		"/Users/craigrupp/Documents/Apex Academy/src/triggers"
+	],
+	"file_history":
+	[
+		"/Users/craigrupp/Documents/Apex Academy/src/triggers/AccountCase.trigger-meta.xml",
+		"/Users/craigrupp/Documents/Apex Academy/src/package.xml",
+		"/Users/craigrupp/MEAN_local/db_update.js",
+		"/Users/craigrupp/MEAN_local/JS-Fundamentals/js/types_ops.js",
+		"/Users/craigrupp/MEAN_local/JS-Fundamentals/html/collections_array.html",
+		"/Users/craigrupp/MEAN_local/JS-Fundamentals/html/obj_func.html",
+		"/Users/craigrupp/MEAN_local/JS-Fundamentals/html/objects/functions.html",
+		"/Users/craigrupp/MEAN_local/JS-Fundamentals/js/obj_func",
+		"/Users/craigrupp/MEAN_local/api/data/dbconnection.js",
+		"/Users/craigrupp/MEAN_local/coderbyte/js/second_set.js",
+		"/Users/craigrupp/MEAN_local/JS-Fundamentals/global.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/.htaccess",
+		"/Applications/XAMPP/xamppfiles/htdocs/MVC/public/.htaccess",
+		"/Applications/XAMPP/etc/httpd.conf",
+		"/Users/craigrupp/Downloads/source-code/public/index.php",
+		"/Users/craigrupp/MEAN_local/recipe-master/src/app/recipes/recipes.component.html",
+		"/Users/craigrupp/MEAN_local/recipe-master/src/app/app.component.html",
+		"/Users/craigrupp/MEAN_local/recipe-master/src/app/app.module.ts",
+		"/Users/craigrupp/MEAN_local/recipe-master/src/app/recipes/recipe-list/recipe-item.component.html",
+		"/Users/craigrupp/MEAN_local/recipe-master/src/app/header.component.html",
+		"/Users/craigrupp/MEAN_local/recipe-master/src/app/app.component.ts",
+		"/Users/craigrupp/MEAN_local/recipe-master/src/app/recipes/recipes.component.ts",
+		"/Users/craigrupp/MEAN_local/recipe-master/src/app/header.component.ts",
+		"/Users/craigrupp/MEAN_local/recipe-master/src/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/user.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/add_user.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/users.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/edit_user.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/js/dropzone.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/css/dropzone.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/delete_user.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/delete_photo.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/photos.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/delete_comment.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/comments.php",
+		"/Users/craigrupp/MEAN_local/coderbyte/second_set.html",
+		"/Users/craigrupp/MEAN_local/coderbyte/testing.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/css/edit_photo.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/upload.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/admin_content.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/js/init_text_edit.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/init.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/basic_files/file.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/database.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/basic_files/upload.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/index.php",
+		"/Applications/XAMPP/xamppfiles/etc/php.ini",
+		"/Applications/XAMPP/xamppfiles/htdocs/basic_files/phpinfo.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/session.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/logout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/top_nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/login.php",
+		"/Users/craigrupp/FrontEnd:Responsive/public/test.html",
+		"/Users/craigrupp/FrontEnd:Responsive/public/codily.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/new_config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/admin/includes/side_nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/OOP/class_inheritance.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/gallery/includes/navigation.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/OOP/class_methods.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/OOP/class_def.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/OOP/static_modifier.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/OOP/class_methods",
+		"/Users/craigrupp/FrontEnd:Responsive/public/vendors/css/normalize.css",
+		"/Users/craigrupp/FrontEnd:Responsive/public/vendors/css/grid.css",
+		"/Users/craigrupp/FrontEnd:Responsive/public/resources/css/queries.css",
+		"/Users/craigrupp/FrontEnd:Responsive/public/resources/css/style.css",
+		"/Users/craigrupp/FrontEnd:Responsive/public/resources/js/script.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/index.php",
+		"/Users/craigrupp/FrontEnd:Responsive/public/index.html",
+		"/Users/craigrupp/MEAN_local/public/angular-app/navigation-directive/navigation-directive.html",
+		"/Users/craigrupp/MEAN_local/public/angular-app/hotel-data-factory/hotel-data-factory.js",
+		"/Users/craigrupp/MEAN_local/public/angular-app/hotel-list/hotel-list.controller.js",
+		"/Users/craigrupp/MEAN_local/api/controllers/users.controllers.js",
+		"/Users/craigrupp/MEAN_local/api/routes/index.js",
+		"/Users/craigrupp/MEAN_local/public/css/custom.css",
+		"/Users/craigrupp/MEAN_local/public/angular-app/main/main.html",
+		"/Users/craigrupp/MEAN_local/public/angular-app/register/register.html",
+		"/Users/craigrupp/MEAN_local/public/angular-app/register/register.controller.js",
+		"/Users/craigrupp/MEAN_local/public/index.html",
+		"/Users/craigrupp/MEAN_local/api/data/users.model.js",
+		"/Users/craigrupp/MEAN_local/api/data/db.js",
+		"/Users/craigrupp/MEAN_local/api/controllers/hotels.controllers.js",
+		"/Users/craigrupp/MEAN_local/public/angular-app/hotel-list/hotels.html",
+		"/Users/craigrupp/MEAN_local/public/angular-app/hotel-display/hotel-display-list.js",
+		"/Users/craigrupp/MEAN_local/public/angular-app/hotel-display/hotel.html",
+		"/Users/craigrupp/MEAN_local/public/angular-app/app-angular.js",
+		"/Users/craigrupp/MEAN_local/public/angular-app/hotel-rating/hotel-rating-directory.js",
+		"/Users/craigrupp/MEAN_local/app.js",
+		"/Users/craigrupp/MEAN_local/nodemon.json",
+		"/Users/craigrupp/MEAN_local/public/angular-app/hotel-data-factory/hotel-data.factory.js",
+		"/Users/craigrupp/MEAN_local/Mean/Node/api/data/hotel-data.json",
+		"/Users/craigrupp/MEAN_local/Mean/Node/api/data/dbconnection.js",
+		"/Users/craigrupp/MEAN_local/Mean/Node/api/data/tech.json",
+		"/Users/craigrupp/MEAN_local/Mean/Node/package.json",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/Mean/Node/routes/index.js",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/Mean/Node/public/index.html",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/Mean/Node/public/css/custom.css",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/Mean/Node/package.json",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/Mean/Node/routes",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/Mean/Node/public/css/bootstrap.min.css",
+		"/Users/craigrupp/vagrant-lamp/etc/hosts",
+		"/Users/craigrupp/etc/hosts",
+		"/Users/craigrupp/vagrant-lamp/sites/codeup.dev/public/ajax-store.html",
+		"/Users/craigrupp/vagrant-lamp/sites/codeup.dev/jquery.html",
+		"/Users/craigrupp/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/ES6/7-EcmaScript2015/more_practice.html",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/ES6/7-EcmaScript2015/3rd_practice.html",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/ES6/7-EcmaScript2015/console_classes_chg.html",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/ES6/more_practice.html",
+		"/Users/craigrupp/vagrant-lamp/sites/JS:MEAN/Refresher/index_object.html",
+		"/Users/craigrupp/Desktop/code_up/hello_world_re-up",
+		"/Users/craigrupp/Desktop/code_up/hello_world.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#",
+			"photo",
+			"id",
+			"photos",
+			"photo_id",
+			"get_all_users",
+			"self::",
+			"extension\t",
+			"john smith",
+			"user_attributes",
+			"sticky",
+			"\">\n",
+			"hungry",
+			"reqest",
+			"nationality"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"users",
+			"id",
+			"static::"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/triggers/WarrantySummary.trigger",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/triggers/LeadingCompetitor.trigger",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1139,
+								1139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/classes/WarrantySummary.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/classes/AppleWatchTest.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/triggers/HelloWorld.trigger",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/classes/HelloWorldTest.cls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Apex Academy.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 201.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
