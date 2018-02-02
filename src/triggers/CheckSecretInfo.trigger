@@ -11,36 +11,27 @@ trigger CheckSecretInfo on Case (after insert, before update) {
 
 	//Step 2 : Check case to see if case contains any secret keywords
 	List<Case> secretInfoCases = new List<Case>();
-	List<String> keywords = new List<String>();
+	Set<String> keywords = new Set<String>();
 	for(Case myCase : Trigger.new){
 		if(myCase.Subject != childCaseSubject){
 			for(String keyword : secretKeyword){
-				if(myCase.Description != null && myCase.Description.containsIgnoreCase(keyword)){
+				if(myCase.Description != null && myCase.Description.containsIgnoreCase(keyword) && secretInfoCases.isEmpty()){
 					secretInfoCases.add(myCase);
 					keywords.add(keyword);
-					System.debug('Case ' + myCase.Id + ' include secret keyword ' + keyword);
-					break;
+				}
+				else if(secretInfoCases.size() == 1 && myCase.Description.containsIgnoreCase(keyword)){
+					keywords.add(keyword);
 				}
 			}
 		}
 	}
-	//Step 3 : Create child case for cases containing keywords
-	//for(Case secretInfoCase : secretInfoCases){
-	//	Case childCase = new Case();
-	//	childCase.Subject = childCaseSubject;
-	//	childCase.ParentId = secretInfoCase.Id;
-	//	childCase.IsEscalated = true;
-	//	childCase.Priority = 'High';
-	//	childCase.Description = 'At least one of the secret keywords were found : ' + secretKeyword;
-	//	insert childCase;
-	//}
 	for(Integer i = 0; i < secretInfoCases.size(); i++){
 		Case childCase = new Case();
 		childCase.Subject = childCaseSubject;
 		childCase.ParentId = secretInfoCases[i].Id;
 		childCase.IsEscalated = true;
 		childCase.Priority = 'High';
-		childCase.Description = 'Parent case associated keyword is : ' + keywords.get(i);
+		childCase.Description = 'Parent case associated keyword is : ' + keywords;
 		insert childCase;
 	}
 }
