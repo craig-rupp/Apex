@@ -2,10 +2,8 @@ trigger testLeadDisqualify on Lead (before insert, before update) {
 	List<Lead> testLeads = new List<Lead>();
 	String testString = 'test';
 	for(Lead testLead : Trigger.new){
-		if(
-			(testLead.LastName != null && testLead.LastName.equalsIgnoreCase(testString)) ||
-			testLead.FirstName != null && testLead.FirstName.equalsIgnoreCase(testString)
-		   ) {
+		if((testLead.FirstName != null && testLead.FirstName.equalsIgnoreCase(testString)) || 
+			(testLead.LastName != null && testLead.LastName.equalsIgnoreCase(testString))) {
 		   	System.debug('Lead entitled : ' + testLead.FirstName + ' ' + testLead.LastName +  ' ' 
 		   		+ testLead.Status + ', will be changed to disqualified');
 			testLeads.add(testLead);

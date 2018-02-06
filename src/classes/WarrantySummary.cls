@@ -11,6 +11,13 @@ private class WarrantySummary {
 		testCase.Product_Total_Warranty_Days__c = 10;
 		insert testCase;
 	}
+
+	@isTest static void createCaseWO(){
+		Case anotherTest = new Case();
+		anotherTest.Status = 'New';
+		anotherTest.Origin = 'Phone';
+		insert anotherTest;
+	}
 	
 	
 	
