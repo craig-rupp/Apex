@@ -10,5 +10,12 @@ private class CheckSecretInfoTest {
 
 		insert testCase;
 
+	}
+	@isTest static void checkSecretWithout(){
+		//1) Create Case 2)description doesn't match
+		Case withoutDesc = new Case();
+		withoutDesc.Subject = 'No Description provided';
+		withoutDesc.Description = null;
+		insert withoutDesc;
 	}	
 }

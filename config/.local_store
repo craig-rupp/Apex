@@ -200,7 +200,7 @@
         "createdById": "0051N000005uzmpQAA",
         "namespacePrefix": null,
         "lastModifiedById": "0051N000005uzmpQAA",
-        "lastModifiedDate": "2018-02-02T02:02:48.000+0000",
+        "lastModifiedDate": "2018-02-06T21:00:30.000+0000",
         "fullName": "CheckSecretInfoTest",
         "fileName": "unpackaged/classes/CheckSecretInfoTest.cls",
         "createdByName": "Craig Rupp",
@@ -303,6 +303,22 @@
         "lastModifiedByName": "Craig Rupp",
         "manageableState": "unmanaged",
         "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "DedupeLead.trigger": {
+        "id": "01q1N000001pEBGQA2",
+        "name": "DedupeLead",
+        "createdDate": "2018-02-07T20:53:18.000+0000",
+        "createdById": "0051N000005uzmpQAA",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051N000005uzmpQAA",
+        "lastModifiedDate": "2018-02-07T21:58:16.000+0000",
+        "fullName": "DedupeLead",
+        "fileName": "unpackaged/triggers/DedupeLead.trigger",
+        "createdByName": "Craig Rupp",
+        "lastModifiedByName": "Craig Rupp",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
         "mmState": "clean"
     }
 }
