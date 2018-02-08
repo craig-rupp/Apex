@@ -5,8 +5,21 @@ trigger DedupeLead on Lead (before insert) {
 	for(Lead leadOpp : Trigger.new){
 		if(leadOpp.Email != null){
 			//1) - Search for Matching Contacts
+			String firstNameMatch;
+			if(leadOpp.FirstName != null){
+				firstNameMatch = leadOpp.FirstName.substring(0, 1) + '%';
+			}
+			string leadCompany;
+			if(leadOpp.Company != null){
+				leadCompany = '%' + leadOpp.Company + '%';
+			}
 			List<Contact> matchingContacts = [SELECT Id, FirstName, LastName, Account.Name FROM Contact 
-												WHERE Email = :leadOpp.Email];
+												WHERE (Email = :leadOpp.Email AND Email != null)
+												OR (FirstName != null AND 
+												FirstName LIKE :firstNameMatch
+												AND LastName = :leadOpp.LastName 
+												AND Account.Name LIKE :leadCompany
+												 )];
 			System.debug(matchingContacts.size() + ' contact(s) found');
 			
 			if(!matchingContacts.isEmpty()){
