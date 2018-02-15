@@ -400,5 +400,37 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "oppHW2.trigger": {
+        "id": "01q1N000001pUTxQAM",
+        "name": "oppHW2",
+        "createdDate": "2018-02-13T20:26:57.000+0000",
+        "createdById": "0051N000005uzmpQAA",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051N000005uzmpQAA",
+        "lastModifiedDate": "2018-02-15T23:00:23.000+0000",
+        "fullName": "oppHW2",
+        "fileName": "unpackaged/triggers/oppHW2.trigger",
+        "createdByName": "Craig Rupp",
+        "lastModifiedByName": "Craig Rupp",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
+    },
+    "oppHW2.cls": {
+        "id": "01p1N00000Dt14bQAB",
+        "name": "oppHW2",
+        "createdDate": "2018-02-15T23:04:19.000+0000",
+        "createdById": "0051N000005uzmpQAA",
+        "namespacePrefix": null,
+        "lastModifiedById": "0051N000005uzmpQAA",
+        "lastModifiedDate": "2018-02-15T23:56:38.000+0000",
+        "fullName": "oppHW2",
+        "fileName": "unpackaged/classes/oppHW2.cls",
+        "createdByName": "Craig Rupp",
+        "lastModifiedByName": "Craig Rupp",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
