@@ -41,10 +41,20 @@ private class OppContactFieldSettings {
 		opp.AccountId = acct.Id;
 		opp.OwnerId = opp_owner.Id;
 		insert opp;
+
+		List<Contact> updatedContacts = [SELECT Description
+											FROM Contact
+											WHERE AccountId = :acct.Id];
+		opp = [SELECT CreatedBy.Name, CloseDate
+				FROM Opportunity
+				WHERE Id = :opp.Id];
+
+		for(Contact iC : contacts){
+			System.assert(iC.Description.contains(opp.CreatedBy.Name));
+			System.assert(iC.Description.contains(opp_owner.FirstName));
+			System.assert(iC.Description.contains(opp_owner.LastName));
+			System.assert(iC.Description.contains(String.valueOf(opp.CloseDate)));
+			//System.assert(iC.Description.contains)
+		} 
 	}
-	
-	@isTest static void test_method_two() {
-		// Implement test code
-	}
-	
 }

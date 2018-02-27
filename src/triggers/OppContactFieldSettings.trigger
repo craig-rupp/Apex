@@ -1,4 +1,4 @@
-trigger OppContactFieldSettings on Opportunity (before insert) {
+trigger OppContactFieldSettings on Opportunity (after insert) {
 	for(Opportunity opp : Trigger.new){
 		if(opp.AccountId != null){
 			//Get all contacts
